@@ -1,5 +1,6 @@
 package net.thecat.firstmod.item;
 
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.thecat.firstmod.FirstMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -9,5 +10,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
            DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
 
-
+    public static void register(IEventBus eventBus)
+    {
+        ITEMS.register(eventBus);
+    }
 }
