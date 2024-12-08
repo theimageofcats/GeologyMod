@@ -54,7 +54,7 @@ import org.slf4j.Logger;
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
-            event.accept(ModItems.FLORITE);
+            event.accept(ModItems.FLUORITE);
         }
     }
 
