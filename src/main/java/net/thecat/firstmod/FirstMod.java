@@ -30,7 +30,7 @@ import org.slf4j.Logger;
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register the commonSetup method for modloading
+        // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -55,6 +55,7 @@ import org.slf4j.Logger;
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.FLUORITE);
+            event.accept(ModItems.FLUORITE_INGOT);
         }
     }
 
