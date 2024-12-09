@@ -56,6 +56,7 @@ import org.slf4j.Logger;
         {
             event.accept(ModItems.FLUORITE);
             event.accept(ModItems.FLUORITE_INGOT);
+            event.accept(ModItems.FLUORITE_NUGGET);
         }
     }
 
