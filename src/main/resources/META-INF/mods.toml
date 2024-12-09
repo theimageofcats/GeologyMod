@@ -20,7 +20,7 @@ license="All Rights Reserved"
 # The modid of the mod
 modId="firstmod" #mandatory
 # The version number of the mod
-version="1.8.3" #mandatory
+version="1.8.4" #mandatory
 # A display name for the mod
 displayName="My First Mod" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -30,7 +30,7 @@ displayName="My First Mod" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 #logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="kaupenjoe tutorial" #optional
 # A text field displayed in the mod UI
 authors="The_CAT_9801" #optional
 # Display Test controls the display for your mod in the server connection screen
