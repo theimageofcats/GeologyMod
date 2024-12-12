@@ -6,5 +6,6 @@
   "item.firstmod.fluorite_nugget": "Fluorite Nugget",
   "item.firstmod.purified_fluorite_nugget": "Purified Fluorite Nugget",
 
-  "block.firstmod.fluorite_block": "Block of Fluorite"
+  "block.firstmod.fluorite_block": "Block of Fluorite",
+  "block.firstmod.purified_fluorite_block": "Block of Purified Fluorite"
 }

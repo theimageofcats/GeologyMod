@@ -66,6 +66,7 @@ import org.slf4j.Logger;
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
         {
             event.accept(ModBlocks.FLUORITE_BLOCK);
+            event.accept(ModBlocks.PURIFIED_FLUORITE_BLOCK);
         }
     }
 

@@ -21,6 +21,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLUORITE_BLOCK = registerBlock("fluorite_block", () -> new Block(BlockBehaviour.Properties.of()
             .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
+    public static final RegistryObject<Block> PURIFIED_FLUORITE_BLOCK = registerBlock("purified_fluorite_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
