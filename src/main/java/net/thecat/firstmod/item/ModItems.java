@@ -23,6 +23,9 @@ public class ModItems {
     public static final RegistryObject<Item> PURIFIED_FLUORITE = ITEMS.register("purified_fluorite",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PURIFIED_FLUORITE_INGOT = ITEMS.register("purified_fluorite_ingot",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

@@ -59,6 +59,7 @@ import org.slf4j.Logger;
             event.accept(ModItems.FLUORITE);
             event.accept(ModItems.PURIFIED_FLUORITE);
             event.accept(ModItems.FLUORITE_INGOT);
+            event.accept(ModItems.PURIFIED_FLUORITE_INGOT);
             event.accept(ModItems.FLUORITE_NUGGET);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
