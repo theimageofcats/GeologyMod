@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.thecat.firstmod.block.ModBlocks;
+import net.thecat.firstmod.item.ModCreativeModeTabs;
 import net.thecat.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,8 @@ import org.slf4j.Logger;
 
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -54,20 +57,6 @@ import org.slf4j.Logger;
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
-        {
-            event.accept(ModItems.FLUORITE);
-            event.accept(ModItems.PURIFIED_FLUORITE);
-            event.accept(ModItems.FLUORITE_INGOT);
-            event.accept(ModItems.PURIFIED_FLUORITE_INGOT);
-            event.accept(ModItems.FLUORITE_NUGGET);
-            event.accept(ModItems.PURIFIED_FLUORITE_NUGGET);
-        }
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
-        {
-            event.accept(ModBlocks.FLUORITE_BLOCK);
-            event.accept(ModBlocks.PURIFIED_FLUORITE_BLOCK);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
