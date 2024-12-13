@@ -1,4 +1,4 @@
-package net.thecat.firstmod.item;
+package net.thecat.geology.item;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -7,16 +7,16 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
-import net.thecat.firstmod.FirstMod;
-import net.thecat.firstmod.block.ModBlocks;
+import net.thecat.geology.Geology;
+import net.thecat.geology.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FirstMod.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Geology.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> FLUORITE_CREATIVE = CREATIVE_MODE_TABS.register("fluorite_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLUORITE_INGOT.get()))
-                    .title(Component.translatable("creativetab.firstmod.fluorite_creative"))
+                    .title(Component.translatable("creativetab.geology.fluorite_creative"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.FLUORITE.get());
                         output.accept(ModItems.PURIFIED_FLUORITE.get());

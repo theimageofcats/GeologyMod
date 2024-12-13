@@ -1,15 +1,15 @@
-package net.thecat.firstmod.item;
+package net.thecat.geology.item;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
-import net.thecat.firstmod.FirstMod;
+import net.thecat.geology.Geology;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-           DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
+           DeferredRegister.create(ForgeRegistries.ITEMS, Geology.MOD_ID);
 
     public static final RegistryObject<Item> FLUORITE = ITEMS.register("fluorite",
             () -> new Item(new Item.Properties()));

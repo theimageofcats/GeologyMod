@@ -1,7 +1,6 @@
-package net.thecat.firstmod;
+package net.thecat.geology;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -14,21 +13,21 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.thecat.firstmod.block.ModBlocks;
-import net.thecat.firstmod.item.ModCreativeModeTabs;
-import net.thecat.firstmod.item.ModItems;
+import net.thecat.geology.block.ModBlocks;
+import net.thecat.geology.item.ModCreativeModeTabs;
+import net.thecat.geology.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(FirstMod.MOD_ID)
-    public class FirstMod
+@Mod(Geology.MOD_ID)
+    public class Geology
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "firstmod";
+    public static final String MOD_ID = "geology";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public FirstMod()
+    public Geology()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

@@ -1,4 +1,4 @@
-package net.thecat.firstmod.block;
+package net.thecat.geology.block;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -9,14 +9,14 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.thecat.firstmod.FirstMod;
-import net.thecat.firstmod.item.ModItems;
+import net.thecat.geology.Geology;
+import net.thecat.geology.item.ModItems;
 
 import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, FirstMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, Geology.MOD_ID);
 
     public static final RegistryObject<Block> FLUORITE_BLOCK = registerBlock("fluorite_block", () -> new Block(BlockBehaviour.Properties.of()
             .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
