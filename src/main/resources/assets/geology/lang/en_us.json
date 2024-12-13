@@ -1,13 +1,13 @@
 {
-  "item.firstmod.fluorite": "Fluorite Clump",
-  "item.firstmod.purified_fluorite": "Purified Fluorite Clump",
-  "item.firstmod.fluorite_ingot": "Fluorite Ingot",
-  "item.firstmod.purified_fluorite_ingot": "Purified Fluorite Ingot",
-  "item.firstmod.fluorite_nugget": "Fluorite Nugget",
-  "item.firstmod.purified_fluorite_nugget": "Purified Fluorite Nugget",
+  "item.geology.fluorite": "Fluorite Clump",
+  "item.geology.purified_fluorite": "Purified Fluorite Clump",
+  "item.geology.fluorite_ingot": "Fluorite Ingot",
+  "item.geology.purified_fluorite_ingot": "Purified Fluorite Ingot",
+  "item.geology.fluorite_nugget": "Fluorite Nugget",
+  "item.geology.purified_fluorite_nugget": "Purified Fluorite Nugget",
 
-  "block.firstmod.fluorite_block": "Block of Fluorite",
-  "block.firstmod.purified_fluorite_block": "Block of Purified Fluorite",
+  "block.geology.fluorite_block": "Block of Fluorite",
+  "block.geology.purified_fluorite_block": "Block of Purified Fluorite",
 
-  "creativetab.firstmod.fluorite_creative": "Fluorite"
+  "creativetab.geology.fluorite_creative": "Fluorite"
 }

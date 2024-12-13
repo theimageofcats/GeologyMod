@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "firstmod:item/purified_fluorite_ingot"
+    "layer0": "geology:item/purified_fluorite_ingot"
   }
 }

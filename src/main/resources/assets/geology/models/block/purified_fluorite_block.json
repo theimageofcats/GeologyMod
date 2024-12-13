@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_all",
   "textures":
   {
-    "all": "firstmod:block/purified_fluorite_block"
+    "all": "geology:block/purified_fluorite_block"
   }
 }

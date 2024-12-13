@@ -3,7 +3,7 @@
   {
     "":
     {
-      "model": "firstmod:block/purified_fluorite_block"
+      "model": "geology:block/purified_fluorite_block"
     }
   }
 }
