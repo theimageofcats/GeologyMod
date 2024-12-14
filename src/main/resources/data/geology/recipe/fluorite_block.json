@@ -1,20 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "key":
-  {
-    "F": {
-      "item": "geology.fluorite_ingot"
+  "key": {
+    "#": {
+      "item": "geology:fluorite_ingot"
     }
   },
   "pattern": [
-    "FFF",
-    "FFF",
-    "FFF"
+    "###",
+    "###",
+    "###"
   ],
-  "result":
-  {
+  "result": {
     "count": 1,
-    "id": "geology.fluorite_block"
+    "id": "geology:fluorite_block"
   }
 }

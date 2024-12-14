@@ -5,9 +5,9 @@
   "experience": 2.0,
   "group": "fluorite_ingot",
   "ingredient": {
-    "item": "minecraft:fluorite"
+    "item": "geology:fluorite"
   },
   "result": {
-    "id": "minecraft:fluorite_ingot"
+    "id": "geology:fluorite_ingot"
   }
 }
