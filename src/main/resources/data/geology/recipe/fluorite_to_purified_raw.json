@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
       {
-        "item": "geology:purified_fluorite_block"
+        "item": "geology:fluorite"
       },
       {
         "item": "minecraft:water_bucket"
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 9,
-    "id": "geology:purified_fluorite_ingot"
+    "id": "geology:purified_fluorite"
   }
 }
