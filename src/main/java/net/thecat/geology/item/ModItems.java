@@ -36,6 +36,9 @@ public class ModItems {
     public static final RegistryObject<Item> RED_FLUORITE_INGOT = ITEMS.register("red_fluorite_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RED_FLUORITE_NUGGET = ITEMS.register("red_fluorite_nugget",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
