@@ -1,7 +1,9 @@
 {
   "item.geology.fluorite": "Fluorite Clump",
+  "item.geology.red_fluorite": "Red Fluorite Clump",
   "item.geology.purified_fluorite": "Purified Fluorite Clump",
   "item.geology.fluorite_ingot": "Fluorite Ingot",
+  "item.geology.red_fluorite_ingot": "Red Fluorite Ingot",
   "item.geology.purified_fluorite_ingot": "Purified Fluorite Ingot",
   "item.geology.fluorite_nugget": "Fluorite Nugget",
   "item.geology.purified_fluorite_nugget": "Purified Fluorite Nugget",

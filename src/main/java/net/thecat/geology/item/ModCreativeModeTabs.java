@@ -19,8 +19,10 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.geology.fluorite_creative"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.FLUORITE.get());
+                        output.accept(ModItems.RED_FLUORITE.get());
                         output.accept(ModItems.PURIFIED_FLUORITE.get());
                         output.accept(ModItems.FLUORITE_INGOT.get());
+                        output.accept(ModItems.RED_FLUORITE_INGOT.get());
                         output.accept(ModItems.PURIFIED_FLUORITE_INGOT.get());
                         output.accept(ModItems.FLUORITE_NUGGET.get());
                         output.accept(ModItems.PURIFIED_FLUORITE_NUGGET.get());

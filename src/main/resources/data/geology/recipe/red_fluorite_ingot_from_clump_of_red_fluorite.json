@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 3.0,
+  "group": "red_fluorite_ingot",
+  "ingredient": {
+    "item": "geology:red_fluorite"
+  },
+  "result": {
+    "id": "geology:red_fluorite_ingot"
+  }
+}
