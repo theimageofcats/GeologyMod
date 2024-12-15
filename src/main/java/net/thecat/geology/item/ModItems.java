@@ -11,6 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
            DeferredRegister.create(ForgeRegistries.ITEMS, Geology.MOD_ID);
 
+
     public static final RegistryObject<Item> FLUORITE = ITEMS.register("fluorite",
             () -> new Item(new Item.Properties()));
 

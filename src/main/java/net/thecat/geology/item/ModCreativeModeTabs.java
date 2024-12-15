@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RED_FLUORITE_NUGGET.get());
                         output.accept(ModItems.PURIFIED_FLUORITE_NUGGET.get());
                         output.accept(ModBlocks.FLUORITE_BLOCK.get());
+                        output.accept(ModBlocks.RED_FLUORITE_BLOCK.get());
                         output.accept(ModBlocks.PURIFIED_FLUORITE_BLOCK.get());
                     })
                     .build());

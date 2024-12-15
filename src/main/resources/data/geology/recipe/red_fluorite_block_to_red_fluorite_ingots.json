@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "geology:red_fluorite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "geology:red_fluorite_ingot"
+  }
+}

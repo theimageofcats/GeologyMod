@@ -1,5 +1,6 @@
 package net.thecat.geology.block;
 
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -19,6 +20,9 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Geology.MOD_ID);
 
     public static final RegistryObject<Block> FLUORITE_BLOCK = registerBlock("fluorite_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> RED_FLUORITE_BLOCK = registerBlock("red_fluorite_block", () -> new Block(BlockBehaviour.Properties.of()
             .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> PURIFIED_FLUORITE_BLOCK = registerBlock("purified_fluorite_block", () -> new Block(BlockBehaviour.Properties.of()
